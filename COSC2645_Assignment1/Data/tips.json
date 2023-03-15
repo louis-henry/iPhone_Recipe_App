@@ -1,0 +1,32 @@
+[ 
+	{
+        "tip_id" : 1,
+        "tip_name" : "More Zest?",
+		"tip_content" : "Sometimes all a dish needs is a squeeze of lemon or lime to take it to the next level. To get the most juice out of your citrus, roll it on a cutting board before slicing in"
+	},
+	{
+		"tip_id" : 2,
+        "tip_name" : "Pan Selection",
+		"tip_content" : "When a recipe says to use a certain type of pan, use that pan. If you only own one nonstick pan, the best tip I can give you is to wait for a good sale at a kitchen store, then buy yourself a stainless steel pan and a cast iron skillet. It’s also smart to replace cheap nonstick pans every few years, as the coating can wear down"
+	},
+	{
+		"tip_id" : 3,
+        "tip_name" : "H2 No",
+		"tip_content" : "Hot tip: water and heat make steam, so when you try to cook something that’s still wet, it won’t brown properly. Meat should be patted with paper towels before you toss it into the pan, chickpeas can be drained in a colander and then dried on a towel before they go onto a sheet pan (this goes for vegetables too, minus the colander part)"
+	},
+	{
+		"tip_id" : 4,
+        "tip_name" : "Limit the Crowd",
+		"tip_content" : "Whether you’re baking or pan frying, it’s important to avoid crowding the pan. Similarly to when vegetables or proteins are cooked while moist, when they’re crammed into a pan they’ll steam instead of brown, which is never good"
+	},
+	{
+		"tip_id" : 5,
+        "tip_name" : "Sharp Knives",
+		"tip_content" : "You may have a steel or a sharpener at home, but once a year, get a pro to revive those knives. Your chopping will get faster, more precise—and, believe it or not, safer."
+	},
+	{
+		"tip_id" : 6,
+        "tip_name" : "Herbs",
+		"tip_content" : "There’s nothing worse than limp herbs. Next time, trim the stems and put the parsley in a glass of water, fit a plastic bag over it, and stash it in the refrigerator"
+	}
+]

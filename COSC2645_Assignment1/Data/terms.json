@@ -1,0 +1,62 @@
+[
+	{
+		"term_id" : 1,
+		"term_name" : "AL DENTE",
+		"term_def" : "Generally used in terms of pasta and rice cooking, but technically includes vegetables and beans too. Al dente is translated as ‘to the tooth’ meaning something cooked but left with a bite of firmness."
+	},
+	{
+		"term_id" : 2,
+		"term_name" : "BASTE",
+		"term_def" : "To pour melted fat or the juices of the liquid over meat or other food while cooking to keep it moist."
+	},
+	{
+		"term_id" : 3,
+		"term_name" : "BLANCH",
+		"term_def" : "A quick method of cooking food, usually green vegetables, whereby the item is basically scalded in boiling hot water for a short period of time and then refreshed in ice cold water. This ensures that the veggie retains its bright green colour and a good firm texture."
+	},
+	{
+		"term_id" : 4,
+		"term_name" : "BRAISE",
+		"term_def" : "Braising is an old French method of cooking meat. It uses a combination of dry and moist heat, dry being when the meat is seared at a high heat and moist when it’s gently cooked in a liquid. This cooking method is ideal with sinewy, tougher cuts of meat."
+	},
+	{
+		"term_id" : 5,
+		"term_name" : "BUTTERFLY",
+		"term_def" : "Butterflying food refers to splitting it through the centre to thin it out, but not cutting through it entirely."
+	},
+	{
+		"term_id" : 6,
+		"term_name" : "CLARIFY",
+		"term_def" : "Most often refers to butter, where the milk solids and water are rendered from the butterfat. This is done by gently melting the butter, allowing the two to separate and then skimming off the solids."
+	},
+    {
+        "term_id" : 7,
+        "term_name" : "CURE",
+        "term_def" : "When egg-based mixtures are cooked too quickly and the protein separates from the liquids, leaving a lumpy mixture behind"
+    },
+    {
+        "term_id" : 8,
+        "term_name" : "FLAMBÉ",
+        "term_def" : "The process of cooking off alcohol that’s been added to a hot pan by creating a burst of flames. The fumes are set alight and the flame goes out when the alcohol has burnt off."
+    },
+    {
+        "term_id" : 9,
+        "term_name" : "JULIENNE",
+        "term_def" : "Refers to a knife skill cut where the shape resembles matchsticks."
+    },
+    {
+        "term_id" : 10,
+        "term_name" : "REDUCE",
+        "term_def" : "The process of simmering or boiling a liquid, usually a stock or a sauce, to intensify the flavour or to thicken the consistency."
+    },
+    {
+        "term_id" : 11,
+        "term_name" : "SAUTÉ",
+        "term_def" : "Meaning ‘to jump’ in French, sauteeing is cooking food in a minimal amount of oil over a rather high heat."
+    },
+    {
+        "term_id" : 12,
+        "term_name" : "PAUPIETTE",
+        "term_def" : "A thin, flattened piece of meat, rolled with a stuffing of ingredients i.e, vegetables, which is then cooked before served."
+    }
+]

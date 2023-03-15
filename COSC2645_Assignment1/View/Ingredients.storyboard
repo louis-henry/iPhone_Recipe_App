@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZIc-Vj-AVo">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shopping List-->
+        <scene sceneID="fj3-wX-DSb">
+            <objects>
+                <viewController id="Oo2-yy-LQD" customClass="IngredientsViewController" customModule="COSC2645_Assignment1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n6X-tU-6ST">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2O7-7K-rKS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gVq-5y-ERP">
+                                    <size key="itemSize" width="151" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ingredientItem" id="ca7-Qz-DYa" customClass="IngredientsItemViewController" customModule="COSC2645_Assignment1" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="151" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id7-v5-yx6">
+                                                    <rect key="frame" x="7" y="14" width="22" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="lRA-Yc-dcu"/>
+                                                        <constraint firstAttribute="width" constant="22" id="vmQ-Wm-NhC"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="btnAdd:" destination="ca7-Qz-DYa" eventType="touchUpInside" id="HAh-R7-Pls"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredient" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysD-q1-D9U">
+                                                    <rect key="frame" x="33" y="0.0" width="114" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="W4x-Ly-zso"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="ysD-q1-D9U" firstAttribute="top" secondItem="ca7-Qz-DYa" secondAttribute="top" id="184-ma-lg8"/>
+                                            <constraint firstItem="id7-v5-yx6" firstAttribute="top" secondItem="ca7-Qz-DYa" secondAttribute="top" constant="14" id="8rG-Pl-B1N"/>
+                                            <constraint firstAttribute="bottom" secondItem="ysD-q1-D9U" secondAttribute="bottom" id="Fg0-dz-H1c"/>
+                                            <constraint firstAttribute="trailing" secondItem="ysD-q1-D9U" secondAttribute="trailing" constant="4" id="LfQ-zY-Wnh"/>
+                                            <constraint firstAttribute="bottom" secondItem="id7-v5-yx6" secondAttribute="bottom" constant="14" id="NVk-EK-MbT"/>
+                                            <constraint firstItem="id7-v5-yx6" firstAttribute="leading" secondItem="ca7-Qz-DYa" secondAttribute="leading" constant="7" id="W5A-vj-9ku"/>
+                                            <constraint firstItem="ysD-q1-D9U" firstAttribute="leading" secondItem="id7-v5-yx6" secondAttribute="trailing" constant="4" id="nCK-tk-xKf"/>
+                                        </constraints>
+                                        <size key="customSize" width="151" height="50"/>
+                                        <connections>
+                                            <outlet property="IngredientAdd" destination="id7-v5-yx6" id="OEy-Jd-tMH"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2O7-7K-rKS" firstAttribute="bottom" secondItem="r4l-Df-cNR" secondAttribute="bottom" id="JDh-Zt-M9R"/>
+                            <constraint firstItem="2O7-7K-rKS" firstAttribute="top" secondItem="r4l-Df-cNR" secondAttribute="top" id="KNR-yD-vna"/>
+                            <constraint firstItem="2O7-7K-rKS" firstAttribute="leading" secondItem="r4l-Df-cNR" secondAttribute="leading" id="fBa-fE-uYz"/>
+                            <constraint firstItem="2O7-7K-rKS" firstAttribute="trailing" secondItem="r4l-Df-cNR" secondAttribute="trailing" id="irK-Rx-lAo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="r4l-Df-cNR"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shopping List" id="bdY-dV-4EE"/>
+                    <connections>
+                        <outlet property="collectionView" destination="2O7-7K-rKS" id="y10-lP-tpQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NRg-Hg-2bD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1616.25" y="17.95774647887324"/>
+        </scene>
+        <!--Ingredients-->
+        <scene sceneID="5mX-ow-InR">
+            <objects>
+                <navigationController title="Ingredients" automaticallyAdjustsScrollViewInsets="NO" id="ZIc-Vj-AVo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ingredients" image="shopping" id="kvf-4a-m7Z"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FPH-vK-Ckn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Oo2-yy-LQD" kind="relationship" relationship="rootViewController" id="Bgn-0Z-Ysg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8q-uv-npK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843.75" y="17.95774647887324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopping" width="25" height="25"/>
+    </resources>
+</document>
